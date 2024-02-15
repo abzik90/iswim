@@ -1,0 +1,36 @@
+Task: Build a RESTful API for a blogging platform
+
+Description:
+You have been tasked with building a RESTful API for a blogging platform. The API should allow users to create, read, update, and delete blog posts. Additionally, users should be able to register and authenticate using JSON Web Tokens (JWT). The API should also include the following features:
+
+Authentication and Authorization:
+
+Implement user registration and login functionality using JWT.
+Protect certain routes to ensure that only authenticated users can perform CRUD operations on blog posts.
+Blog Post Management:
+
+Implement CRUD operations for managing blog posts (create, read, update, delete).
+Each blog post should have a title, content, and associated author.
+Pagination and Sorting:
+
+Implement pagination for listing blog posts, allowing users to retrieve a specific number of posts per page.
+Implement sorting options to retrieve blog posts based on criteria such as date, title, or author.
+Search Functionality:
+
+Implement a search functionality to allow users to search for blog posts based on keywords or tags.
+Unit Testing:
+
+Write unit tests to ensure the functionality of critical components such as user authentication and CRUD operations.
+Guidelines:
+
+Use any programming language and framework of your choice (e.g., Python with Flask or Django, Node.js with Express).
+Utilize a database system of your choice (e.g., MySQL, PostgreSQL, MongoDB).
+Document the API endpoints and provide instructions on how to interact with them.
+Evaluation Criteria:
+The candidate's submission will be evaluated based on the following aspects:
+
+Functionality: Does the API fulfill the required features and requirements?
+Code Quality: Is the code clean, well-structured, and maintainable?
+Security: Are proper security measures implemented, especially for user authentication and authorization?
+Testing: Are there appropriate unit tests to ensure the correctness of critical components?
+Documentation: Is there clear and concise documentation on how to use the API and interact with the endpoints?
